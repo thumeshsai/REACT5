@@ -25,7 +25,7 @@ const Age  = () => {
       <p className=" text-center text-lg font-base">Enter your date of birth:</p>
       <input className="block m-auto  w-60 my-4" type="date" value={dob} onChange={(e) => setDob(e.target.value)} />
       <button className="block m-auto" onClick={calculateAge}>Calculate</button>
-      {age && <p className="block my-4">Your age is {age} years.</p>}
+      {age && <p className="block my-4">You are  {age} years old.</p>}
     </div>
   );
 };
